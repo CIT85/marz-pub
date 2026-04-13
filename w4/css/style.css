@@ -1,8 +1,8 @@
 /* General Page Styles */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px;
-    background-color: #f4f4f4; /* Default Gray */
+    background-color: #b6a9a9; /* Default Gray */
 }
 
 /* SHARED STYLES: All boxes get these rules */
@@ -11,8 +11,10 @@ body {
     width: 100%;
     margin-bottom: 20px;
     padding: 20px;
-    border: 2px solid black; /* Default Border */
-    color: white; /* Default text color inside boxes */
+    border: 7px dotted black;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+   
 }
 
 /* UNIQUE STYLES: Update the HEX codes below */
