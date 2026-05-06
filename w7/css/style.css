@@ -1,0 +1,13 @@
+.attendance-hero {
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(135, 51, 156, 0.562), rgba(0, 0, 0, 0.616)), url(../images/hero-new.png);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-block: 40vh 5vh;
+}
+
+.attendance-hero h2 {
+    color: white;
+    font-size: 5rem;
+}
