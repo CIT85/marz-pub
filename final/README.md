@@ -58,3 +58,6 @@ the descendant selectors are confirming scores at ```(0, 1, 1)``` and is necessa
 
 ## week 8 engineering notes
 the changes I have made would make certain cards go from 2-columns to stacking at 700px for mobile users such as phones and tablets. The header helped removing the margin so the links weren't "hugging" the top edge of the border and keeps it even on top and bottom. It is better to put the media query inside the selector instead of underneath it because it helps it keep it clean and easier to read what properties will effect the element.
+
+## Week 9 sub pages
+the sub page i added is related based off of security reasons and can help those who are still trying to learn the basics of computers and want to stay protected. it is being linked through the tips window near the end of the page with the card about security, it will be in a new page because of the amount of information about being protected.
