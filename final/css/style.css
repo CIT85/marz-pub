@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+}
+
+img,
+figure {
+    max-inline-size: 100%;
+}
+
+body {
+    font-family: monospace;
+    background-color: #E4B7E5;
+    color: #210124;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+section {
+        margin-block: 2rem;
+        background-color: #fed6ff;
+        padding-inline: 2rem;
+        border: 4px solid #750D37;
+        border-radius: 20px;
+}
+
+a{
+    color: #c04677;
+    text-decoration: none;
+    border-radius: 15px;
+    padding-inline: 5px;
+}
+
+a:hover{
+    color: #210124;
+}
+
+h1 { text-align: center;
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+
+h2{
+    background-color: #750D37;
+    color: #E4B7E5;
+    line-height: 1.1;
+    border-radius: 5px;
+    padding-inline: 5px 10px;
+
+}
+
+ul {
+    gap: 3px;
+    padding: 0;
+}
+
+.primary-nav {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+background-color: #750D37;
+display: flex;
+justify-content: space-between;
+}
+
+.primary-nav img {
+    background-color: #cb7cdf;
+    height: 5rem;
+}
+
+.primary-nav a {
+    color: #E4B7E5;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.primary-nav a:hover {
+    background-color: #210124;
+    color: #E4B7E5;
+}
+
+.primary-nav ul {
+    list-style: none;
+    display: flex;    
+}
+
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-inline: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.wrapper {
+    max-inline-size: 1000px;
+    margin-inline: auto;
+}
+
+.two-column {
+    display: grid;
+    gap: 20px;
+
+@media (min-width: 700px) {
+        grid-template-columns: 1fr 1fr;
+}
+}
+
+.hero-section {
+    background-image: linear-gradient(rgba(133, 7, 38, 0.616), rgba(37, 37, 37, 0.671)), url("../images/hero-new.png");
+    background-size: cover;
+    background-position: center;
+    color: #fde0fd;
+    min-height: 60vh;
+    margin-inline: 30px;
+}
+
+.hero-section strong {
+    color: #bb8dfc;
+}
+
+.tip-card {
+    background-image: linear-gradient(rgba(133, 7, 38, 0.616), rgba(37, 37, 37, 0.671)), url("../images/texture-new.png");
+    background-size: cover;
+    background-position: center;
+    margin-inline: auto;
+    padding-inline: 20px;
+    padding-block: 30px;
+    color: #fde0fd;
+}
+
+.tip-card ul {
+    background-color: #eabfeb8c;
+    color: #750D37;
+    margin-inline: 20px;
+    padding-inline: 50px;
+    padding-block: 40px;
+    border: 4px solid #750D37;
+    border-radius: 20px;
+}
+
+.tip-card li::marker {
+    content: "\1F5B1"; /* Unicode for a desktop computer emoji */
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.tip-card strong {
+    color: #f8e9fc;
+    background-color: #700932;
+    padding-inline: 5px;
+    border-radius: 5px;
+}
+
+.header-card {
+    background-image: linear-gradient(rgba(221, 141, 201, 0.616), rgba(37, 37, 37, 0.671)), url("../images/geo-background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-inline: 20px;
+    padding-block: 30px;
+    color: #fde0fd;
+}
+
+.card-header {
+    text-transform: uppercase;
+    background-color: #750D37;
+    color: #E4B7E5;
+    padding-inline: 10px;
+    border-inline-end: solid 5px #000000;
+    border-block-end: solid 5px #000000;
+}
+
+.key-terms {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.advice {
+    font-style: italic;
+    font-weight: bold;
+    background-color: #750D37;
+    color: #E4B7E5;
+    padding-inline: 5px;
+    border-radius: 10px;
+}
+
+.software {
+    font-weight: bold;
+    font-style: italic;
+    background-color: #c04677;
+    color: #000000;
+}
+
+.software:hover {
+    background-color: #210124;
+    color: #E4B7E5;
+}
+
+.cta-box{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.664), rgba(143, 15, 58, 0.37)), url("../images/background-accent.png");
+    text-align: center;
+    margin-block: 30px;
+    margin-inline: 200px;
+    padding-block: 30px;
+    background-color: #fed6ff;
+    border: 4px solid #750D37;
+    color: #f8e9fc;
+}
+
+.cta-button{
+    margin-block: 20px;
+    padding-inline: 10px 20px;
+    background-color: #750D37;
+    color: #E4B7E5;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.cta-button:hover{
+    background-color: #210124;
+    color: #E4B7E5;
+}
+
+
+#palette {
+    color:#cb7cdf;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#palette:hover {
+    color: #210124;
+}
+
+.site-footer {
+    background-color: #750D37;
+    color: #E4B7E5;
+    padding-inline: 20px;
+    text-align: center;
+}
+
+/* SHARED STYLES: All boxes get these rules */
+.swatch {
+    height: 150px;
+    width: 100%;
+    margin-block-start: 20px;
+    padding-block: 20px;
+    border: 7px dotted black;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+/* UNIQUE STYLES: Update the HEX codes below */
+
+/* 1. Primary Color */
+.primary {
+    background-color: #E4B7E5; /* CHANGE THIS */
+}
+
+/* 2. Accent Color */
+.accent {
+    background-color: #750D37; /* CHANGE THIS */
+}
+
+/* 3. Text/Light Color */
+.text {
+    background-color: #210124; /* CHANGE THIS */
+    color: rgb(255, 255, 255); /* Dark text for light background */
+}
+
+/* Final W3C Validation Check: Passed 4/27/2026 */
+/* Final W3C Validation Check: Passed 5/5/2026 */
