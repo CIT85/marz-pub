@@ -100,7 +100,7 @@ justify-content: space-between;
 
 .primary-nav ul {
     list-style: none;
-    display: flex;    
+    display: flex;
 }
 
 .primary-nav a.active-page {
@@ -136,10 +136,13 @@ footer{
     display: grid;
     gap: 20px;
 
-@media (width > 1020px) {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+@media (width >= 1150px) {
+        grid-template-columns: 1fr 1fr 1fr;
         margin-block: 30px;
 }
+@media (width >= 1800px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-block: 30px;}
 }
 
 
@@ -154,6 +157,21 @@ footer{
 
 .hero-section strong {
     color: #bb8dfc;
+}
+
+.hero-compact {
+    background-image: linear-gradient(rgba(133, 7, 38, 0.616), rgba(37, 37, 37, 0.671)), url("../images/hero-new.png");
+    background-size: cover;
+    background-position: center;
+    color: #fde0fd;
+    min-height: 20vh;
+    padding-block: 20px;
+    margin-inline: 15px;
+
+    @media (width > 700px) {
+        max-inline-size: 700px;
+        margin-inline: auto;
+        }
 }
 
 .tip-card {
