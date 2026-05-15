@@ -225,6 +225,13 @@ footer{
     border-block-end: solid 5px #000000;
 }
 
+.step-card{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/images/build-bg.jpg);
+    background-size: fill;
+    background-position: center;
+    color: #E4B7E5
+}
+
 .key-terms {
     text-transform: uppercase;
     font-weight: bold;
